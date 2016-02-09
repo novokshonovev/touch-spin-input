@@ -8,11 +8,11 @@ use yii\widgets\MaskedInputAsset;
 class TouchSpinInputAsset extends AssetBundle
 {
     public $js = [
-        'js/touch-spin-input.js',
+        'js' . DIRECTORY_SEPARATOR . 'touch-spin-input.js',
     ];
 
     public $css = [
-        'css/touch-spin-input.css',
+        'css' . DIRECTORY_SEPARATOR . 'touch-spin-input.css',
     ];
 
     public $publishOptions = [
