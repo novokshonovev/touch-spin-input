@@ -22,7 +22,7 @@ class TouchSpinInputAsset extends AssetBundle
     public function init()
     {
         parent::init();
-        $this->sourcePath = __DIR__ . DIRECTORY_SEPARATOR . 'assets';
+        $this->sourcePath = __DIR__;
         $this->depends[]  = WidgetGeneratorAsset::className();
         $this->depends[]  = MaskedInputAsset::className();
     }
