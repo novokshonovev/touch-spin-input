@@ -1,0 +1,25 @@
+{
+  "name": "dowlatow/touch-spin-input",
+  "description": "TouchSpinInput - виджет для отображения числовых полей",
+  "type": "library",
+  "license": "proprietary",
+  "version": "dev-master",
+  "homepage": "https://github.com/novokshonovev/touch-spin-input",
+  "minimum-stability": "stable",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/novokshonovev/js-widget-generator"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": ">=2.0.0",
+    "dowlatow/js-widget-generator": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "dowlatow\\widgets\\": ""
+    }
+  }
+}

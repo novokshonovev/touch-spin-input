@@ -1,0 +1,26 @@
+.input-touchspin {
+    position: relative;
+}
+.input-touchspin input {
+    width: 65px;
+}
+.input-touchspin .caret {
+    cursor: pointer;
+    color: #A7A7A7;
+    position: absolute;
+    left: 47px;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+}
+.input-touchspin .caret:hover {
+    color: rgba(0, 0, 0, 0.7);
+}
+.input-touchspin .caret.step-up {
+    bottom: 20px;
+    border-top: none;
+    border-bottom: 5px dashed;
+}
+.input-touchspin .caret.step-down {
+    bottom: 10px;
+    border-top: 5px dashed;
+}
