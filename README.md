@@ -15,6 +15,10 @@ TouchSpinInput - виджет для отображения числовых п�
     "repositories": [
         {
             "type": "vcs",
+            "url": "https://github.com/novokshonovev/js-widget-generator"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/novokshonovev/touch-spin-input"
         }
     ],
